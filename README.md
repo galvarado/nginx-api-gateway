@@ -3,7 +3,9 @@ Project that shows how to configure nginx as an API Gateway. Our demo project is
 
 
 ## Architecture
+![Alt text](images/bookstoreapigateway.png?raw=true "Architecture")
 
 
 ## How to start it
 
+Just run the run.sh script to start the environment. To a full explanation please go to: https://galvarado.com.mx/post/desplegar-un-api-gateway-con-nginx/ 
