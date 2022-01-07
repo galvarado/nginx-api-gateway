@@ -17,11 +17,12 @@ Install [Docker](https://docs.docker.com/get-docker/).
 $ git clone git@github.com:galvarado/nginx-api-gateway.git
 ```
 3.Start the environment
- For a full explanation please read the post at: https://github.com/galvarado/nginx-api-gateway 
+
+For a full explanation please read the post at: https://github.com/galvarado/nginx-api-gateway
+
+After completing the tutorial, you will have 3 containers deployed with docker and an API that responds to requests protected with HTTPS using an SSL certificate and also authentication based on API Key.
  
- After completing the tutorial, you will have 3 containers deployed with docker and an API that responds to requests protected with HTTPS using an SSL certificate and also authentication based on API Key.
- 
- If you do not want to follow the tutorial, you can just get up and running the containers using the run.sh script as follows:
+If you do not want to follow the tutorial, you can just get up and running the containers using the run.sh script as follows:
  
 ```
 $ chmod a+x run.sh
