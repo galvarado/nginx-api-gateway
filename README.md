@@ -8,15 +8,15 @@ Project that shows how to configure nginx as an API Gateway. Our demo project is
 
 ## Usage
 
-### 1.Prerequisites:
+### 1. Prerequisites:
 
 Install [Docker](https://docs.docker.com/get-docker/).
 
-### 2.Clone this repo:
+### 2. Clone this repo:
 ```
 $ git clone git@github.com:galvarado/nginx-api-gateway.git
 ```
-### 3.Start the environment
+### 3. Start the environment
 
 For a full explanation please read the post at: https://github.com/galvarado/nginx-api-gateway
 
