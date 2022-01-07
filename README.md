@@ -43,14 +43,14 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 You can test the API with curl:
 
 ```
-curl -ik --header "apikey:/ZkKxb0WYcqS8DRgn+e0aw==" --request GET  https://bookstore.io/api/bookstore/catalog/books
+$ curl -ik --header "apikey:/ZkKxb0WYcqS8DRgn+e0aw==" --request GET  https://bookstore.io/api/bookstore/catalog/books
 ```
-Note: please add bookstore.io to your /etc/hosts file to resolve the domain in your local environment.
+*Note: please add bookstore.io to your /etc/hosts file to resolve the domain in your local environment.
 
 You will receive as response:
 
 ```
-TTP/1.1 200 OK
+HTTP/1.1 200 OK
 Server: nginx/1.19.6
 Date: Fri, 07 Jan 2022 15:55:59 GMT
 Content-Type: application/json
