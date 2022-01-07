@@ -8,20 +8,22 @@ Project that shows how to configure nginx as an API Gateway. Our demo project is
 
 ## Usage
 
-1.Prerequisites:
+### 1.Prerequisites:
 
 Install [Docker](https://docs.docker.com/get-docker/).
 
-2.Clone this repo:
+### 2.Clone this repo:
 ```
 $ git clone git@github.com:galvarado/nginx-api-gateway.git
 ```
-3.Start the environment
+### 3.Start the environment
 
 For a full explanation please read the post at: https://github.com/galvarado/nginx-api-gateway
 
 After completing the tutorial, you will have 3 containers deployed with docker and an API that responds to requests protected with HTTPS using an SSL certificate and also authentication based on API Key.
  
+#### TLDR;
+
 If you do not want to follow the tutorial, you can just get up and running the containers using the run.sh script as follows:
  
 ```
@@ -42,7 +44,6 @@ You can test the API with curl:
 
 ```
 curl -ik --header "apikey:/ZkKxb0WYcqS8DRgn+e0aw==" --request GET  https://bookstore.io/api/bookstore/catalog/books
-
 ```
 Note: please add bookstore.io to your /etc/hosts file to resolve the domain in your local environment.
 
